@@ -22,3 +22,6 @@ https://reactnavigation.org/
 
 * Styled Components
 https://styled-components.com/docs
+
+* React Native Vector-Icons
+https://oblador.github.io/react-native-vector-icons/
