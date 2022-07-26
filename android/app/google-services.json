@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "814296002270",
+    "project_id": "heychat-ba05b",
+    "storage_bucket": "heychat-ba05b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:814296002270:android:991e3f0ada1e7d7efd5c4f",
+        "android_client_info": {
+          "package_name": "com.chatroom"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "814296002270-htqdl7us3q1jcudt23ddhpjhkehpsr03.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAr-2n7pjXMsE2DWCXzsxtzacm-40RtZ80"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "814296002270-htqdl7us3q1jcudt23ddhpjhkehpsr03.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
