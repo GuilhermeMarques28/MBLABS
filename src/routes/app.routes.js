@@ -1,13 +1,9 @@
 import React from 'react';
-
-import {createBottomTabNavigator} from '@react-navigation/bottom-tabs'
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
 import Home from '../pages/Home';
-import DetailsParty1 from '../pages/DetailsParty1'
-import Favorites from '../pages/Favorites';
+import Party1 from '../pages/Party1';
 
-import Entypo from 'react-native-vector-icons/Entypo'
 
 const AppStack = createNativeStackNavigator();
 
@@ -19,9 +15,13 @@ export default function AppRoutes() {
         name="Home"
         component={Home}
         options={{
-          tabBarIcon: ({size, color}) => (
-            <Entypo name='home' color={color} size={size}/>
-          ),
+          headerShown: false
+        }}
+      />
+      <AppStack.Screen
+        name="Party1"
+        component={Party1}
+        options={{
           headerShown: false
         }}
       />
