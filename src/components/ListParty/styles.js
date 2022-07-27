@@ -13,7 +13,7 @@ font-family: 'Product Sans Bold';
 `;
 
 export const ImageBackground = styled.ImageBackground`
-height: 250px;
+height: 230px;
 width: 250px;
 margin-top: 15px;
 margin-left: 10px;

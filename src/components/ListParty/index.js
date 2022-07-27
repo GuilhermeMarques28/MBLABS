@@ -1,24 +1,23 @@
+import { useNavigation } from '@react-navigation/native';
 import React from 'react';
 import {ScrollView, Text} from 'react-native';
 import {
   Container,
   Title,
-  BannerButton,
-  Banner,
   ImageBackground,
   ViewDate,
   TitleDate,
   TitleNumberDate,
   ViewShowName,
   TextShowName,
-  ButtonText,
 } from './styles';
 
-function handleclick() {
-  alert('Clicou');
-}
+
 
 export default function ListParty() {
+
+  const navigation = useNavigation()
+
   return (
     <Container>
       <Title>DESTAQUES</Title>
@@ -32,7 +31,7 @@ export default function ListParty() {
             <TitleNumberDate>21</TitleNumberDate>
           </ViewDate>
 
-          <ViewShowName onPress={() => alert('Clicou')}>
+          <ViewShowName onPress={() => navigation.navigate('Details', {nome: 'Guilherme'})}>
             <TextShowName>Maroon 5</TextShowName>
           </ViewShowName>
         </ImageBackground>
@@ -42,11 +41,24 @@ export default function ListParty() {
           resizeMode="cover">
           <ViewDate>
             <TitleDate>DEZ</TitleDate>
-            <TitleNumberDate>21</TitleNumberDate>
+            <TitleNumberDate>23</TitleNumberDate>
           </ViewDate>
 
           <ViewShowName>
             <TextShowName>The Weekend</TextShowName>
+          </ViewShowName>
+        </ImageBackground>
+
+        <ImageBackground
+          source={require('../../assets/images/Party3.jpg')}
+          resizeMode="cover">
+          <ViewDate>
+            <TitleDate>DEZ</TitleDate>
+            <TitleNumberDate>25</TitleNumberDate>
+          </ViewDate>
+
+          <ViewShowName>
+            <TextShowName>One Direction</TextShowName>
           </ViewShowName>
         </ImageBackground>
       </ScrollView>
