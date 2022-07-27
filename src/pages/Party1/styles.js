@@ -14,7 +14,7 @@ opacity: 0.9;
 export const ViewBack = styled.View`
 background-color: #000000;
 opacity: 0.6;
-height: 46px;
+height: 36px;
 width: 56px;
 align-items: center;
 justify-content: center;

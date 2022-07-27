@@ -1,6 +1,8 @@
+import { useNavigation } from '@react-navigation/native';
 import React from 'react';
 import Ionicons from 'react-native-vector-icons/Ionicons';
 import About from '../../components/About';
+import Ticket from '../../components/Ticket';
 
 import {
   Container,
@@ -17,13 +19,16 @@ import {
 } from './styles';
 
 export default function Party1() {
+
+  const navigation = useNavigation()
+
   return (
     <Container>
       <ImageBackground
         source={require('../../assets/images/Party1.jpg')}
         resizeMode="cover">
         <ViewBack>
-          <BackButton>
+          <BackButton onPress={() => navigation.navigate('Home')}>
             <Ionicons name="arrow-back" size={30} color="#fff" />
           </BackButton>
         </ViewBack>
@@ -39,7 +44,9 @@ export default function Party1() {
         </ViewText>
       </ImageBackground>
 
-      <About/>    
+      <About/>
+
+      <Ticket/>
 
     </Container>
   );
