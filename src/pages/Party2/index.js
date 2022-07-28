@@ -25,7 +25,7 @@ export default function Party1() {
   return (
     <Container>
       <ImageBackground
-        source={require('../../assets/images/Party1.jpg')}
+        source={require('../../assets/images/Party2.jpeg')}
         resizeMode="cover">
         <ViewBack>
           <BackButton onPress={() => navigation.navigate('Home')}>
@@ -35,11 +35,11 @@ export default function Party1() {
 
         <ViewText>
           <Text1>Show</Text1>
-          <Text2>Maroon 5</Text2>
+          <Text2>The Weekend</Text2>
           <Text3>Começa as 09:30</Text3>
         <ViewDate colors={['#439DFEE8', '#F687FFE8']}>
           <TitleDate>DEZ</TitleDate>
-          <TitleNumberDate>21</TitleNumberDate>
+          <TitleNumberDate>23</TitleNumberDate>
         </ViewDate>
         </ViewText>
       </ImageBackground>
