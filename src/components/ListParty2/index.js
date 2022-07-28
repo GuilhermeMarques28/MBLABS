@@ -14,17 +14,17 @@ import {
 
 
 
-export default function ListParty() {
+export default function ListParty2() {
 
   const navigation = useNavigation()
 
   return (
     <Container>
-      <Title>Eventos para universidades</Title>
+      <Title>Eventos para empresas</Title>
 
       <ScrollView horizontal>
         <ImageBackground
-          source={require('../../assets/images/Party1.jpg')}
+          source={require('../../assets/images/Party4.jpg')}
           resizeMode="cover">
           <ViewDate>
             <TitleDate>DEZ</TitleDate>
@@ -32,12 +32,12 @@ export default function ListParty() {
           </ViewDate>
 
           <ViewShowName onPress={() => navigation.navigate('Party1')}>
-            <TextShowName>Maroon 5</TextShowName>
+            <TextShowName>Sprigfield</TextShowName>
           </ViewShowName>
         </ImageBackground>
 
         <ImageBackground
-          source={require('../../assets/images/Party2.jpeg')}
+          source={require('../../assets/images/Party5.jpg')}
           resizeMode="cover">
           <ViewDate>
             <TitleDate>DEZ</TitleDate>
@@ -45,12 +45,12 @@ export default function ListParty() {
           </ViewDate>
 
           <ViewShowName onPress={() => navigation.navigate('Party2')}>
-            <TextShowName>The Weekend</TextShowName>
+            <TextShowName>Wedding</TextShowName>
           </ViewShowName>
         </ImageBackground>
 
         <ImageBackground
-          source={require('../../assets/images/Party3.jpg')}
+          source={require('../../assets/images/Party6.jpg')}
           resizeMode="cover">
           <ViewDate>
             <TitleDate>DEZ</TitleDate>
@@ -58,7 +58,7 @@ export default function ListParty() {
           </ViewDate>
 
           <ViewShowName onPress={() => navigation.navigate('Party3')}>
-            <TextShowName>One Direction</TextShowName>
+            <TextShowName>Rave</TextShowName>
           </ViewShowName>
         </ImageBackground>
       </ScrollView>

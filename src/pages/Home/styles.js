@@ -4,16 +4,14 @@ import LinearGradient from "react-native-linear-gradient";
 export const Container = styled.View`
 flex: 1;
 background-color: #000000;
-
 `
 
 export const InputArea = styled(LinearGradient)`
-width: 80%;
-background-color: #000000;
+width: 80%;;
 height: 50px;
 border-radius: 15px;
 margin: 30px 20px;
-margin-left: 35px;
+margin-left: 40px;
 align-items: center;
 padding-left: 9px;
 justify-content: center;
@@ -34,9 +32,10 @@ margin-left: 37px;
 `;
 
 export const CardView = styled(LinearGradient)`
-height: 100px;
+height: 90px;
 width: 85%;
 margin-top: 10px;
+margin-bottom: 10px;
 margin-left: 35px;
 border-radius: 10px;
 flex-direction: row;

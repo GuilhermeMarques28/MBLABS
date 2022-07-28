@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import {ActivityIndicator, View} from 'react-native';
 import AppRoutes from './app.routes';
 
-import { Container, Title } from './styles';
+import { Container, LogoArea, TitleLogo } from './styles';
 
 export default function Routes() {
 
@@ -17,7 +17,9 @@ export default function Routes() {
   if(loading){
     return(
       <Container>
-        <Title>Event Lab</Title>
+      <LogoArea colors={['#439DFEE8', '#F687FFE8']}>
+        <TitleLogo>Event Lab</TitleLogo>
+      </LogoArea>
         <ActivityIndicator size={25} color="#FFF"/>
       </Container>
     )
