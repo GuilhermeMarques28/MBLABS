@@ -28,7 +28,6 @@ export const CardText = styled.TouchableOpacity`
 justify-content: center;
 align-items: center;
 flex-direction: row;
-padding: 15px;
 `;
 
 export const TextCard = styled.Text`

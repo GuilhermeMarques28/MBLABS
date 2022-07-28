@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 import Header from '../../components/Header';
 import {
@@ -15,6 +15,7 @@ import Icon from 'react-native-vector-icons/Feather';
 import ListParty from '../../components/ListParty';
 
 import Entypo from 'react-native-vector-icons/Entypo';
+
 
 export default function Home() {
   return (
