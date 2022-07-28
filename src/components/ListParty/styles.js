@@ -17,6 +17,7 @@ height: 230px;
 width: 250px;
 margin-top: 15px;
 margin-left: 10px;
+margin-right: 10px;
 `;
 
 export const ViewDate = styled.View`

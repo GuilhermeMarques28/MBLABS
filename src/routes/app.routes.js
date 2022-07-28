@@ -4,6 +4,7 @@ import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Home from '../pages/Home';
 import Party1 from '../pages/Party1';
 import Party2 from '../pages/Party2';
+import Party3 from '../pages/Party3';
 
 
 const AppStack = createNativeStackNavigator();
@@ -32,7 +33,14 @@ export default function AppRoutes() {
         options={{
           headerShown: false
         }}
-      />
+       />
+       <AppStack.Screen
+        name="Party3"
+        component={Party3}
+        options={{
+          headerShown: false
+        }}
+       />
     </AppStack.Navigator>
     
     

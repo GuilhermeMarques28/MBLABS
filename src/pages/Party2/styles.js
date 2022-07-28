@@ -34,7 +34,6 @@ margin-left: 30px;
 
 export const Text1 = styled.Text`
 color: #ffffff;
-opacity: 0.5;
 font-size: 16px;
 font-family: 'Product Sans Regular';
 `
@@ -47,7 +46,6 @@ font-family: 'Product Sans Bold';
 
 export const Text3 = styled.Text`
 color: #ffffff;
-opacity: 0.5;
 font-size: 16px;
 font-family: 'Product Sans Regular';
 `;

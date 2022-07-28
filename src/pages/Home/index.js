@@ -9,7 +9,8 @@ import {
   CardButton,
   CardText,
   Title,
-  CardText2
+  CardText2,
+  TitleHeader
 } from './styles';
 import Icon from 'react-native-vector-icons/Feather';
 import ListParty from '../../components/ListParty';
@@ -22,9 +23,8 @@ export default function Home() {
     <Container>
       <Header />
 
-      <InputArea>
-        <Icon name="search" size={24} color="#666666" />
-        <Input />
+      <InputArea colors={['#439DFEE8', '#F687FFE8']}>
+        <TitleHeader>Event Lab</TitleHeader>
       </InputArea>
 
       <ListParty />

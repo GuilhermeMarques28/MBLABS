@@ -57,7 +57,7 @@ export default function ListParty() {
             <TitleNumberDate>25</TitleNumberDate>
           </ViewDate>
 
-          <ViewShowName>
+          <ViewShowName onPress={() => navigation.navigate('Party3')}>
             <TextShowName>One Direction</TextShowName>
           </ViewShowName>
         </ImageBackground>

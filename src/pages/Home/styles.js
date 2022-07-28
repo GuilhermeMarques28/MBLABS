@@ -7,27 +7,21 @@ background-color: #000000;
 
 `
 
-export const InputArea = styled.View`
-flex-direction: row;
-width: 90%;
-background-color: #1D1D1D;
+export const InputArea = styled(LinearGradient)`
+width: 80%;
+background-color: #000000;
 height: 50px;
 border-radius: 15px;
 margin: 30px 20px;
+margin-left: 35px;
 align-items: center;
 padding-left: 9px;
+justify-content: center;
 `;
 
-export const Input = styled.TextInput.attrs({
-    placeholder: 'Procurar',
-    placeholderTextColor: '#666666'
-})`
-align-items: center;
-width: 80%;
-height: 50px;
+export const TitleHeader = styled.Text`
 color: #FFF;
-padding-left: 5px;
-font-size: 15px;
+font-size: 28px;
 font-family: 'Product Sans Bold';
 `;
 
