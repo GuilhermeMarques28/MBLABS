@@ -31,7 +31,7 @@ export default function ListParty2() {
             <TitleNumberDate>21</TitleNumberDate>
           </ViewDate>
 
-          <ViewShowName onPress={() => navigation.navigate('Party1')}>
+          <ViewShowName onPress={() => navigation.navigate('Party4')}>
             <TextShowName>Sprigfield</TextShowName>
           </ViewShowName>
         </ImageBackground>
@@ -44,7 +44,7 @@ export default function ListParty2() {
             <TitleNumberDate>23</TitleNumberDate>
           </ViewDate>
 
-          <ViewShowName onPress={() => navigation.navigate('Party2')}>
+          <ViewShowName onPress={() => navigation.navigate('Party5')}>
             <TextShowName>Wedding</TextShowName>
           </ViewShowName>
         </ImageBackground>
@@ -57,7 +57,7 @@ export default function ListParty2() {
             <TitleNumberDate>25</TitleNumberDate>
           </ViewDate>
 
-          <ViewShowName onPress={() => navigation.navigate('Party3')}>
+          <ViewShowName onPress={() => navigation.navigate('Party6')}>
             <TextShowName>Rave</TextShowName>
           </ViewShowName>
         </ImageBackground>
