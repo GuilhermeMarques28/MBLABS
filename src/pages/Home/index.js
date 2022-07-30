@@ -18,6 +18,7 @@ import Entypo from 'react-native-vector-icons/Entypo';
 import {ScrollView,} from 'react-native';
 import ListParty2 from '../../components/ListParty2';
 import TelaIngresso from '../../components/Modal';
+import ModalShare from '../../components/ModalShare';
 
 export default function Home() {
   
@@ -36,7 +37,7 @@ export default function Home() {
 
       <Title>Para você</Title>
 
-      <TelaIngresso/>
+      <ModalShare/>
 
       <ListParty2/>
 
