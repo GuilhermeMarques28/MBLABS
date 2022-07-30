@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import {Modal} from 'react-native';
+import {Modal, TouchableOpacity} from 'react-native';
 import Entypo from 'react-native-vector-icons/Entypo';
 
 import {
@@ -13,6 +13,9 @@ import {
   CardText,
   Input,
   AreaInput,
+  BackButton,
+  ButtonBackText,
+  AreaBackButton
 } from './styles';
 
 export default function ModalBuy() {
@@ -57,6 +60,13 @@ export default function ModalBuy() {
               <ButtonText>Comprar ingresso!</ButtonText>
             </ContentButton>
           </AreaButton>
+          
+          <AreaBackButton>
+          <BackButton onPress={() => setModalVisible(!modalVisible)}> 
+           <ButtonBackText>Sair</ButtonBackText>
+          </BackButton>
+          </AreaBackButton>
+
         </ContentModal>
       </Modal>
 
@@ -68,7 +78,7 @@ export default function ModalBuy() {
           style={{paddingRight: 10}}
         />
         <CardButton activeOpacity={0.7} onPress={() => setModalVisible(true)}>
-          <CardText>Comprar o seu ingresso!</CardText>
+          <CardText>Compre o seu ingresso!</CardText>
         </CardButton>
       </CardView>
     </Container>

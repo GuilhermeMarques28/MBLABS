@@ -14,6 +14,9 @@ import {
   CardText2,
   Input,
   AreaInput,
+  AreaBackButton,
+  BackButton,
+  ButtonBackText
 } from './styles';
 
 export default function ModalShare() {
@@ -38,6 +41,13 @@ export default function ModalShare() {
               <ButtonText>Compartilhe e ganhe 1 ingresso!</ButtonText>
             </ContentButton>
           </AreaButton>
+
+          <AreaBackButton>
+          <BackButton onPress={() => setModalVisible(!modalVisible)}> 
+           <ButtonBackText>Sair</ButtonBackText>
+          </BackButton>
+          </AreaBackButton>
+
         </ContentModal>
       </Modal>
 

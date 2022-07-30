@@ -81,7 +81,6 @@ padding: 10px;
 
 export const AreaButton = styled(LinearGradient)`
 width: 80%;
-margin-bottom: 120px;
 margin-top: 10px;
 align-items: center;
 justify-content: center;
@@ -96,4 +95,24 @@ export const ButtonText = styled.Text`
 color: #FFF;
 font-size: 17px;
 font-family: 'Product Sans Bold';
+`;
+
+export const AreaBackButton = styled.View`
+background-color: #000000;
+
+width: 20%;
+margin-bottom: 140px;
+margin-top: 10px;
+`;
+
+export const BackButton = styled.TouchableOpacity`
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+`;
+
+export const ButtonBackText = styled.Text`
+color: #FFF;
+font-family: 'Product Sans Bold';
+font-size: 17px;
 `;

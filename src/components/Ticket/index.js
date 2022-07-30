@@ -10,6 +10,7 @@ export default function Ticket() {
       <Title>Venha conhecer essa festa!</Title>
 
         <ModalBuy/>
+        
     </Container>
   );
 }

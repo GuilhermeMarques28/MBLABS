@@ -50,6 +50,7 @@ font-family: 'Product Sans Bold';
 padding-top: 5px;
 `;
 
+
 export const AreaInput = styled.View`
 background-color: black;
 width: 90%;
@@ -74,8 +75,7 @@ padding: 10px;
 
 export const AreaButton = styled(LinearGradient)`
 width: 80%;
-margin-bottom: 120px;
-margin-top: 10px;
+margin-top: 5px;
 align-items: center;
 justify-content: center;
 height: 40px;
@@ -89,4 +89,24 @@ export const ButtonText = styled.Text`
 color: #FFF;
 font-size: 17px;
 font-family: 'Product Sans Bold';
+`;
+
+export const AreaBackButton = styled.View`
+background-color: #000000;
+opacity: 0.8;
+width: 20%;
+margin-bottom: 140px;
+margin-top: 10px;
+`;
+
+export const BackButton = styled.TouchableOpacity`
+justify-content: center;
+align-items: center;
+border-radius: 5px;
+`;
+
+export const ButtonBackText = styled.Text`
+color: #FFF;
+font-family: 'Product Sans Bold';
+font-size: 17px;
 `;
