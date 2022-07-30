@@ -1,23 +1,15 @@
-import React, { useState} from 'react';
+import React from 'react';
 
 import Header from '../../components/Header';
 import {
   Container,
-  Input,
   InputArea,
-  CardView,
-  CardButton,
-  CardText,
   Title,
-  CardText2,
   TitleHeader
 } from './styles';
 import ListParty from '../../components/ListParty';
-import Modal from '../../components/Modal';
-import Entypo from 'react-native-vector-icons/Entypo';
 import {ScrollView,} from 'react-native';
 import ListParty2 from '../../components/ListParty2';
-import TelaIngresso from '../../components/Modal';
 import ModalShare from '../../components/ModalShare';
 
 export default function Home() {
