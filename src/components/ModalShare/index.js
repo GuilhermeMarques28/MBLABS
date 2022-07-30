@@ -30,7 +30,7 @@ export default function ModalShare() {
         <ContentModal>
           <AreaInput>
             <Input placeholder="Informe seu nome"/>
-            <Input placeholder="Informe seu idade"/>
+            <Input placeholder="Informe sua idade"/>
           </AreaInput>
 
           <AreaButton colors={['#439DFEE8', '#F687FFE8']}>

@@ -50,13 +50,6 @@ font-family: 'Product Sans Bold';
 padding-top: 5px;
 `;
 
-export const CardText2 = styled.Text`
-color: #FFF;
-font-size: 15px;
-font-family: 'Product Sans Regular';
-padding-top: 5px;
-`;
-
 export const AreaInput = styled.View`
 background-color: black;
 width: 90%;
