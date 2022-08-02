@@ -21,6 +21,20 @@ import {
 
 export default function ModalShare() {
   const [modalVisible, setModalVisible] = useState(false);
+  const [age, setAge] = useState('')
+  const [name, setName] = useState('')
+  
+  function validationAge() {
+    if(age < '18' || name === '') {
+        return
+    }
+    else{
+        setModalVisible(!modalVisible)
+        setAge('')
+        setName('')
+    }
+  }
+
   return (
     <Container>
       <Modal
@@ -32,12 +46,18 @@ export default function ModalShare() {
         }}>
         <ContentModal>
           <AreaInput>
-            <Input placeholder="Informe seu nome"/>
-            <Input placeholder="Informe sua idade"/>
+            <Input 
+            value={name}
+            onChangeText={(text) => setName(text)}
+            placeholder="Informe seu nome"/>
+            <Input 
+            value={age}
+            onChangeText={(text) => setAge(text)}
+            placeholder="Informe sua idade"/>
           </AreaInput>
 
           <AreaButton colors={['#439DFEE8', '#F687FFE8']}>
-            <ContentButton onPress={() => setModalVisible(!modalVisible)}>
+            <ContentButton onPress={validationAge}>
               <ButtonText>Compartilhe e ganhe 1 ingresso!</ButtonText>
             </ContentButton>
           </AreaButton>
