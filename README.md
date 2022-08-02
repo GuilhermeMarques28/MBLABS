@@ -25,3 +25,6 @@ https://styled-components.com/docs
 
 * React Native Vector-Icons
 https://oblador.github.io/react-native-vector-icons/
+
+* React Native Linear-Gradient
+https://github.com/react-native-linear-gradient/react-native-linear-gradient
